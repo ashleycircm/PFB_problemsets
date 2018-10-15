@@ -1,0 +1,128 @@
+    1  ls -F
+    2  ls -F     3  ls -a
+    4  mv problemsets/ PFB_problemsets
+    5  ls -F
+    6  git status
+    7  cd PFB_problemsets
+    8  git status
+    9  mkdir unix1
+   10  ls
+   11  cd unix1
+   12  cd ..
+   13  mv problemsets/ unix1
+   14  ls
+   15  cd unix
+   16  cd unix1
+   17  ls
+   18  git init
+   19  git remove add
+   20  cd ..
+   21  git add unix1
+   22  git comit -m 'PFB_problemsets'
+   23  git commit -m 'PFB_problemsets'
+   24  git push
+   25  mkdir files
+   26  ls
+   27  cd files
+   28  cd ..
+   29  cd unix1
+   30  ls
+   31  cd problemsets/
+   32  ls
+   33  mv cancer_genes.fasta files
+   34  ls
+   35  cd files
+   36  cd files 
+   37  cd ..
+   38  ls
+   39  cd problemsets/
+   40  ls
+   41  cd files 
+   42  cd ..
+   43  cd ..
+   44  ls
+   45  cd files
+   46  cd ..
+   47  ls
+   48  cd ..
+   49  cd unix1
+   50  ls
+   51  cd PFB_problemsets
+   52  cd unix1/
+   53  cd problemsets/
+   54  ls
+   55  mv files cancer_genes.fasta
+   56  ls
+   57  cd --
+   58  cd ..
+   59  cd ..
+   60  cd ..
+   61  cd PFB_problemsets
+   62  ls
+   63  pwd
+   64  cd
+   65  cd pwd
+   66  pwd
+   67  cd~
+   68  ls
+   69  cd PFB_problemsets
+   70  ls
+   71  cd unix1
+   72  ls
+   73  cd problemsets
+   74  ls
+   75  cd ..
+   76  cd ..
+   77  ls
+   78  mv unix1/problemsets/cancer_genes.fasta files/
+   79  ls
+   80  cd files
+   81  ls
+   82  git add files/cancer_genes.fasta
+   83  cd ..
+   84  git add files/cancer_genes.fasta 
+   85  git commit -m 'adding cancer_genes.fasta'
+   86  git push
+   87  cd files/
+   88  nano mysequences.txt
+   89  ls
+   90  git add mysequences.txt 
+   91  git commit -m 'adding >seqName description
+   92  git add mysequences.txt 
+   93  git commit -m 'adding mysequences.txt'
+   94  git push
+   95  git push
+   96  cd ..
+   97  ls
+   98  mkdir fastas
+   99  ls
+  100  ls
+  101  cd files
+  102  ls
+  103  cd ..
+  104  mv files/cancer_genes.fasta fastas/
+  105  ls
+  106  cd fastas
+  107  ls
+  108  cd ..
+  111  ls
+  112  pwd
+  113  cd PFB_problemsets
+  114  cd problemsets
+  115  cd files
+  116  ls
+  117  cd~
+  118  cd
+  119  ls
+  120  rm PFB_problemsats/
+  121  man rm
+  122  rm -d PFB_problemsats
+  123  ls
+  124  cd PFB_problemsets
+  125  git add all
+  126  git commit -m'adding all'
+  127  git push
+  128  man rm
+  129  man cp
+  130  history > unixBasics.history.txt
+
