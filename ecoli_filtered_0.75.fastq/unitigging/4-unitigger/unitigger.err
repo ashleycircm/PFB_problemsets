@@ -1,0 +1,257 @@
+
+==> PARAMETERS.
+
+Resources:
+  Memory                16 GB
+  Compute Threads       4 (command line)
+
+Lengths:
+  Minimum read          0 bases
+  Minimum overlap       500 bases
+
+Overlap Error Rates:
+  Graph                 0.045 (4.500%)
+  Max                   0.045 (4.500%)
+
+Deviations:
+  Graph                 6.000
+  Bubble                6.000
+  Repeat                3.000
+
+Edge Confusion:
+  Absolute              2100
+  Percent               200.0000
+
+Unitig Construction:
+  Minimum intersection  500 bases
+  Maxiumum placements   2 positions
+
+Debugging Enabled:
+  (none)
+
+==> LOADING AND FILTERING OVERLAPS.
+
+ReadInfo()-- Using 9424 reads, no minimum read length used.
+
+OverlapCache()-- limited to 16384MB memory (user supplied).
+
+OverlapCache()--       0MB for read data.
+OverlapCache()--       0MB for best edges.
+OverlapCache()--       0MB for tigs.
+OverlapCache()--       0MB for tigs - read layouts.
+OverlapCache()--       0MB for tigs - error profiles.
+OverlapCache()--    4096MB for tigs - error profile overlaps.
+OverlapCache()--    1638MB for other processes.
+OverlapCache()-- ---------
+OverlapCache()--    5736MB for data structures (sum of above).
+OverlapCache()-- ---------
+OverlapCache()--       0MB for overlap store structure.
+OverlapCache()--   10647MB for overlap data.
+OverlapCache()-- ---------
+OverlapCache()--   16384MB allowed.
+OverlapCache()--
+OverlapCache()-- Retain at least 29 overlaps/read, based on 15.00x coverage.
+OverlapCache()-- Initial guess at 74042 overlaps/read.
+OverlapCache()--
+OverlapCache()-- Adjusting for sparse overlaps.
+OverlapCache()--
+OverlapCache()--               reads loading olaps          olaps               memory
+OverlapCache()--   olaps/read       all      some          loaded                 free
+OverlapCache()--   ----------   -------   -------     ----------- -------     --------
+OverlapCache()--        74042      9424         0          247412 100.00%      10643 MB
+OverlapCache()--
+OverlapCache()-- Loading overlaps.
+OverlapCache()--
+OverlapCache()--          read from store           saved in cache
+OverlapCache()--   ------------ ---------   ------------ ---------
+OverlapCache()--   ------------ ---------   ------------ ---------
+OverlapCache()--         247412 (100.00%)         247014 (099.84%)
+OverlapCache()--
+OverlapCache()-- Ignored 8 duplicate overlaps.
+OverlapCache()--
+OverlapCache()-- Symmetrizing overlaps.
+OverlapCache()--   Finding missing twins.
+OverlapCache()--   Found 0 missing twins in 247014 overlaps, 0 are strong.
+OverlapCache()--   Dropping weak non-twin overlaps; allocated 0 MB scratch space.
+OverlapCache()--   Dropped 0 overlaps; scratch space released.
+OverlapCache()--   Adding 0 missing twin overlaps.
+OverlapCache()--   Finished.
+
+BestOverlapGraph()-- allocating best edges (0MB)
+
+BestOverlapGraph()-- finding initial best edges.
+
+BestOverlapGraph()-- filtering suspicious reads.
+BestOverlapGraph()-- marked 1061 reads as suspicious.
+
+BestOverlapGraph()-- filtering high error edges.
+
+BestOverlapGraph()-- filtering reads with lopsided best edges.
+
+BestOverlapGraph()-- filtering spur reads.
+BestOverlapGraph()-- detected 7 spur reads and 1068 singleton reads.
+BestOverlapGraph()-- detected 2 zombie reads.
+
+BestOverlapGraph()-- removing best edges for contained reads.
+
+==> BUILDING GREEDY TIGS.
+
+breakSingletonTigs()-- Removed 13 singleton tigs; reads are now unplaced.
+optimizePositions()-- Optimizing read positions for 9425 reads in 16 tigs, with 4 threads.
+optimizePositions()--   Allocating scratch space for 9425 reads (589 KB).
+optimizePositions()--   Initializing positions with 4 threads.
+optimizePositions()--   Recomputing positions, iteration 1, with 4 threads.
+optimizePositions()--     Reset zero.
+optimizePositions()--     Checking convergence.
+optimizePositions()--     converged:   8318 reads
+optimizePositions()--     changed:     1107 reads
+optimizePositions()--   Recomputing positions, iteration 2, with 4 threads.
+optimizePositions()--     Reset zero.
+optimizePositions()--     Checking convergence.
+optimizePositions()--     converged:   8365 reads
+optimizePositions()--     changed:     1060 reads
+optimizePositions()--   Recomputing positions, iteration 3, with 4 threads.
+optimizePositions()--     Reset zero.
+optimizePositions()--     Checking convergence.
+optimizePositions()--     converged:   8367 reads
+optimizePositions()--     changed:     1058 reads
+optimizePositions()--   Recomputing positions, iteration 4, with 4 threads.
+optimizePositions()--     Reset zero.
+optimizePositions()--     Checking convergence.
+optimizePositions()--     converged:   8367 reads
+optimizePositions()--     changed:     1058 reads
+optimizePositions()--   Recomputing positions, iteration 5, with 4 threads.
+optimizePositions()--     Reset zero.
+optimizePositions()--     Checking convergence.
+optimizePositions()--     converged:   8367 reads
+optimizePositions()--     changed:     1058 reads
+optimizePositions()--   Expanding short reads with 4 threads.
+optimizePositions()--   Updating positions.
+optimizePositions()--   Finished.
+
+==> PLACE CONTAINED READS.
+
+computeErrorProfiles()-- Computing error profiles for 16 tigs, with 4 threads.
+computeErrorProfiles()-- Finished.
+
+placeContains()-- placing 7331 contained and 1077 unplaced reads, with 4 threads.
+placeContains()-- Placed 6240 contained reads and 3 unplaced reads.
+placeContains()-- Failed to place 1091 contained reads (too high error suspected) and 1074 unplaced reads (lack of overlaps suspected).
+optimizePositions()-- Optimizing read positions for 9425 reads in 16 tigs, with 4 threads.
+optimizePositions()--   Allocating scratch space for 9425 reads (589 KB).
+optimizePositions()--   Initializing positions with 4 threads.
+optimizePositions()--   Recomputing positions, iteration 1, with 4 threads.
+optimizePositions()--     Reset zero.
+optimizePositions()--     Checking convergence.
+optimizePositions()--     converged:   7471 reads
+optimizePositions()--     changed:     1954 reads
+optimizePositions()--   Recomputing positions, iteration 2, with 4 threads.
+optimizePositions()--     Reset zero.
+optimizePositions()--     Checking convergence.
+optimizePositions()--     converged:   7501 reads
+optimizePositions()--     changed:     1924 reads
+optimizePositions()--   Recomputing positions, iteration 3, with 4 threads.
+optimizePositions()--     Reset zero.
+optimizePositions()--     Checking convergence.
+optimizePositions()--     converged:   7915 reads
+optimizePositions()--     changed:     1510 reads
+optimizePositions()--   Recomputing positions, iteration 4, with 4 threads.
+optimizePositions()--     Reset zero.
+optimizePositions()--     Checking convergence.
+optimizePositions()--     converged:   8361 reads
+optimizePositions()--     changed:     1064 reads
+optimizePositions()--   Recomputing positions, iteration 5, with 4 threads.
+optimizePositions()--     Reset zero.
+optimizePositions()--     Checking convergence.
+optimizePositions()--     converged:   8364 reads
+optimizePositions()--     changed:     1061 reads
+optimizePositions()--   Expanding short reads with 4 threads.
+optimizePositions()--   Updating positions.
+optimizePositions()--   Finished.
+
+==> MERGE ORPHANS.
+
+computeErrorProfiles()-- Computing error profiles for 16 tigs, with 4 threads.
+computeErrorProfiles()-- Finished.
+
+findPotentialOrphans()-- working on 16 tigs.
+mergeOrphans()-- Found 1 potential orphans.
+mergeOrphans()-- placed        0 unique orphan tigs
+mergeOrphans()-- shattered     0 repeat orphan tigs
+mergeOrphans()--
+classifyAsUnassembled()--      0 tigs           0 bases -- singleton
+classifyAsUnassembled()--      0 tigs           0 bases -- too few reads        (< 2 reads)
+classifyAsUnassembled()--      0 tigs           0 bases -- too short            (< 0 bp)
+classifyAsUnassembled()--      0 tigs           0 bases -- single spanning read (> 1.000000 tig length)
+classifyAsUnassembled()--      1 tigs       25895 bases -- low coverage         (> 0.500000 tig length at < 3 coverage)
+classifyAsUnassembled()--      1 tigs     4649184 bases -- acceptable contigs
+
+
+==> GENERATING ASSEMBLY GRAPH.
+
+computeErrorProfiles()-- Computing error profiles for 16 tigs, with 4 threads.
+computeErrorProfiles()-- Finished.
+
+AssemblyGraph()-- allocating vectors for placements, 0.431MB
+AssemblyGraph()-- finding edges for 7259 reads (6240 contained), ignoring 2165 unplaced reads, with 4 threads.
+AssemblyGraph()-- building reverse edges.
+AssemblyGraph()-- build complete.
+AssemblyGraph()-- generating './ecoli.initial.assembly.gfa'.
+AssemblyGraph()-- Found 0 edges to unassembled contigs.
+AssemblyGraph()--        0 bubble placements
+AssemblyGraph()--        0 repeat placements
+
+AssemblyGraph()-- Intratig edges:            0 contained         0 5'         0 3' (in both contig and unitig)
+AssemblyGraph()-- Contig only edges:       388 contained      6861 5'      6863 3'
+AssemblyGraph()-- Unitig only edges:         0 contained         0 5'         0 3'
+AssemblyGraph()-- Intercontig edges:         8 contained       195 5'       174 3' (in neither contig nor unitig)
+
+==> BREAK REPEATS.
+
+computeErrorProfiles()-- Computing error profiles for 16 tigs, with 4 threads.
+computeErrorProfiles()-- Finished.
+markRepeatReads()-- Found 0 confused edges.
+
+==> CLEANUP MISTAKES.
+
+splitDiscontinuous()-- Tested 2 tigs, split none.
+promoteToSingleton()-- Moved 1108 unplaced reads to singleton tigs.
+dropDead()-- Modified 0 tigs.  Dropped 0 first and 0 last reads, 0 tigs had both reads dropped.
+splitDiscontinuous()-- Tested 2 tigs, split none.
+promoteToSingleton()-- Moved 0 unplaced reads to singleton tigs.
+
+==> CLEANUP GRAPH.
+
+AssemblyGraph()-- rebuilding
+AssemblyGraph()-- building reverse edges.
+AssemblyGraph()-- rebuild complete.
+AssemblyGraph()-- filtering edges
+AssemblyGraph()-- 7259 contig edges and 0 unitig edges.
+AssemblyGraph()-- 0 bubble edges and 0 repeat edges.
+AssemblyGraph()-- 348 middle contig edges filtered from 141 reads.
+AssemblyGraph()-- 0 repeat end edges filtered from 0 reads.
+AssemblyGraph()-- 348 repeat edges (not output).
+AssemblyGraph()-- 0 bubble edges.
+AssemblyGraph()-- 0 intersecting edges (from the end of a tig to somewhere else).
+
+==> GENERATE OUTPUTS.
+
+AssemblyGraph()-- generating './ecoli.final.assembly.gfa'.
+AssemblyGraph()-- Found 0 edges to unassembled contigs.
+AssemblyGraph()--        0 bubble placements
+AssemblyGraph()--        0 repeat placements
+
+AssemblyGraph()-- Intratig edges:            0 contained         0 5'         0 3' (in both contig and unitig)
+AssemblyGraph()-- Contig only edges:       396 contained      6861 5'      6863 3'
+AssemblyGraph()-- Unitig only edges:         0 contained         0 5'         0 3'
+AssemblyGraph()-- Intercontig edges:         0 contained         0 5'         0 3' (in neither contig nor unitig)
+AssemblyGraph()-- generating './ecoli.contigs.gfa'.
+
+==> GENERATE UNITIGS.
+
+computeErrorProfiles()-- Computing error profiles for 1124 tigs, with 4 threads.
+computeErrorProfiles()-- Finished.
+splitDiscontinuous()-- Tested 1 tig, split none.
+AssemblyGraph()-- generating './ecoli.unitigs.gfa'.
+
+Bye.

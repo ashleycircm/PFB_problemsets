@@ -1,0 +1,18 @@
+Canu v1.7 (+518 commits) r9210 22a2453af2eafd0109c9924b648e91711eb3c701.
+
+Current Working Directory:
+/Users/admin/Desktop/Ash/ecoli_filtered_0.75.fastq/correction/2-correction
+
+Command:
+/Users/admin/Desktop/Ash/canu/Darwin-amd64/bin/falconsense \
+  -S ../../ecoli.seqStore \
+  -C ../ecoli.corStore \
+  -R ./ecoli.readsToCorrect \
+  -r 5001-9424 \
+  -t 4 \
+  -cc 0 \
+  -cl 1000 \
+  -oi 0.7 \
+  -ol 500 \
+  -p ./results/0002.WORKING \
+  -cns

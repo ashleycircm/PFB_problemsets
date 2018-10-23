@@ -1,0 +1,7 @@
+########################################
+#  pacbio-raw: /Users/admin/Desktop/Ash/canu/ecoli_filtered_0.75.fastq
+#
+name   ecoli_filtered_0.75
+preset pacbio-raw
+/Users/admin/Desktop/Ash/canu/ecoli_filtered_0.75.fastq
+

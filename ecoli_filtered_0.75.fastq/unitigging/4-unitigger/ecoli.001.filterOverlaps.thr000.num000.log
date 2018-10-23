@@ -1,0 +1,38 @@
+
+INITIAL EDGES
+-------- ----------------------------------------
+    7336 reads are contained
+    1063 reads have no best edges (singleton)
+       5 reads have only one best edge (spur) 
+                3 are mutual best
+    1020 reads have two best edges 
+                3 have one mutual best edge
+             1015 have two mutual best edges
+
+
+ERROR RATES (13207 samples)
+-----------
+mean   0.01198024 stddev 0.00816894 -> 0.06099387 fraction error =   6.099387% error
+median 0.00950000 mad    0.00380000 -> 0.04330328 fraction error =   4.330328% error
+
+
+EDGE FILTERING
+-------- ------------------------------------------
+    1064 reads have a suspicious overlap pattern
+      37 reads had edges filtered
+               37 had one
+                0 had two
+       3 reads have length incompatible edges
+                2 have one
+                1 have two
+
+FINAL EDGES
+-------- ----------------------------------------
+    7331 reads are contained
+    1070 reads have no best edges (singleton)
+       8 reads have only one best edge (spur) 
+                3 are mutual best
+    1015 reads have two best edges 
+                1 have one mutual best edge
+             1010 have two mutual best edges
+

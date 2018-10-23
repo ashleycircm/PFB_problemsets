@@ -1,0 +1,47 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 18, subversion 2 (v5.18.2) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "1.8.0_191"
+
+Found canu:
+   /Users/admin/Desktop/Ash/canu/Darwin-amd64/bin/canu
+   Canu snapshot v1.7 +518 changes (r9210 22a2453af2eafd0109c9924b648e91711eb3c701)
+
+Running job 1 based on command line options.
+Initializing.
+Opening seqStore '../../ecoli.seqStore'.
+Correcting reads 1 to 9424.
+Reading 151213 corrections from './red.red'.
+Correcting 71990357 bases with 122973 indel adjustments.
+--Allocate 68 + 0 + 0 MB for bases, adjusts and reads.
+Corrected 71867386 bases with 18816 substitutions, 122972 deletions and 1 insertions.
+Loading overlaps.
+Read_Olaps()--  Loading 247412 overlaps from '../ecoli.ovlStore' for reads 1 to 9424
+--Allocate 7 MB for overlaps.
+Read_Olaps()--  Loaded 247412 overlaps -- 124044 normal and 123368 innie.
+Sorting overlaps.
+Recomputing overlaps.
+--Allocate 8 MB for fseq and rseq.
+--Allocate 32 MB for fadj and radj.
+--Allocate 16 MB for pedWorkArea_t.
+-- Allocate 0 MB for Edit_Array pointers.
+Recomputing overlaps -         1 -         1 -      9424--Allocate 16 MB for edit array work space 0 (positions 0-4092)
+Recomputing overlaps -         1 -      1025 -      9424Recomputing overlaps -         1 -      2049 -      9424Recomputing overlaps -         1 -      3073 -      9424Recomputing overlaps -         1 -      4097 -      9424Recomputing overlaps -         1 -      5121 -      9424Recomputing overlaps -         1 -      6145 -      9424Recomputing overlaps -         1 -      7169 -      9424Recomputing overlaps -         1 -      8193 -      9424Recomputing overlaps -         1 -      9217 -      9424
+--  Release bases, adjusts and reads.
+Olaps Fwd 124044
+Olaps Rev 123368
+Total:  247412
+Failed: 80 (both)
+Failed: 489 (either)
+Failed: 489 (match to end)
+Failed: 80 (negative length)
+rhaFail 237 rhaPass 122944
+Sorting overlaps.
+Saving corrected error rates to file ./00001.oea.WORKING
+--Allocate 0 MB for output error rates.
+
+Bye.

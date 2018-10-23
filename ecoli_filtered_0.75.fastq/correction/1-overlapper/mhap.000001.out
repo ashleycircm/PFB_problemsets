@@ -1,0 +1,70 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 18, subversion 2 (v5.18.2) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "1.8.0_191"
+
+Found canu:
+   /Users/admin/Desktop/Ash/canu/Darwin-amd64/bin/canu
+   Canu snapshot v1.7 +518 changes (r9210 22a2453af2eafd0109c9924b648e91711eb3c701)
+
+Running job 1 based on command line options.
+Fetch blocks/000002.dat
+
+Running block 000001 in query 000001
+
+Running with these settings:
+--filter-threshold = 1.0E-7
+--help = false
+--max-shift = 0.2
+--min-olap-length = 500
+--min-store-length = 0
+--no-rc = false
+--no-self = false
+--no-tf = false
+--num-hashes = 768
+--num-min-matches = 2
+--num-threads = 8
+--ordered-kmer-size = 12
+--ordered-sketch-size = 1536
+--repeat-idf-scale = 10.0
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = true
+--supress-noise = 0
+--threshold = 0.73
+--version = false
+-f = 
+-h = false
+-k = 16
+-p = 
+-q = queries/000001
+-s = ./blocks/000001.dat
+
+Processing files for storage in reverse index...
+Current # sequences loaded and processed from file: 5000...
+Current # sequences loaded and processed from file: 10000...
+Current # sequences loaded and processed from file: 15000...
+Current # sequences stored: 5000...
+Current # sequences stored: 10000...
+Current # sequences stored: 15000...
+Stored 16200 sequences in the index.
+Processed 16200 unique sequences (fwd and rev).
+Time (s) to read and hash from file: 2.492620994
+Time (s) to score and output to self: 3.3916272220000003
+Opened fasta file /Users/admin/Desktop/Ash/ecoli_filtered_0.75.fastq/correction/1-overlapper/blocks/000002.dat.
+Processed 1324 to sequences.
+Time (s) to score, hash to-file, and output: 0.66189909
+Total scoring time (s): 4.055322643
+Total time (s): 6.548035053
+MinHash search time (s): 4.426771508
+Total matches found: 137334
+Average number of matches per lookup: 14.572792869269948
+Average number of table elements processed per lookup: 917.828629032258
+Average number of table elements processed per match: 62.98234231872661
+Average % of hashed sequences hit per lookup: 0.5650145936825337
+Average % of hashed sequences hit that are matches: 15.920918246095239
+Average % of hashed sequences fully compared that are matches: 88.40296105568072

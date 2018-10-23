@@ -1,0 +1,31 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 18, subversion 2 (v5.18.2) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "1.8.0_191"
+
+Found canu:
+   /Users/admin/Desktop/Ash/canu/Darwin-amd64/bin/canu
+   Canu snapshot v1.7 +518 changes (r9210 22a2453af2eafd0109c9924b648e91711eb3c701)
+
+Running job 1 based on command line options.
+-- Opening seqStore '../ecoli.ctgStore/partitionedReads.seqStore' partition 1.
+-- Opening tigStore '../ecoli.ctgStore' version 1.
+-- Opening output results file './ctgcns/0001.cns.WORKING'.
+--
+-- Computing consensus for b=0 to e=1123 with errorRate 0.0750 (max 0.4000) and minimum overlap 40
+--
+Consensus finished successfully.
+
+Bye.
+                           ----------CONTAINED READS----------  -DOVETAIL  READS-
+  tigID    length   reads      used coverage  ignored coverage      used coverage
+------- --------- -------  -------- -------- -------- --------  -------- --------
+      1   4649184    7251      6231   10.03x        0    0.00x      1020    4.22x
+      2     25895       8         6    1.91x        0    0.00x         2    1.39x
+
+Processed 2 tigs and 1108 singletons.
+

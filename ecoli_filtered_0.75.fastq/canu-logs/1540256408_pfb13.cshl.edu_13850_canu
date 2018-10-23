@@ -1,0 +1,14 @@
+
+###
+###  Reading options from '/Users/admin/Desktop/Ash/canu/Darwin-amd64/bin/canu.defaults'
+###
+
+# Add site specific options (for setting up Grid or limiting memory/threads) here.
+
+###
+###  Reading options from the command line.
+###
+
+genomeSize=4.8m
+saveReads=true
+gnuplot=/usr/local/opt/gnuplot@4/bin/gnuplot2

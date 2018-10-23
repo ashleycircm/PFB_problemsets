@@ -1,0 +1,81 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 18, subversion 2 (v5.18.2) built for darwin-thread-multi-2level
+
+Found java:
+   /usr/bin/java
+   java version "1.8.0_191"
+
+Found canu:
+   /Users/admin/Desktop/Ash/canu/Darwin-amd64/bin/canu
+   Canu snapshot v1.7 +518 changes (r9210 22a2453af2eafd0109c9924b648e91711eb3c701)
+
+Running job 1 based on command line options.
+kmerCountFileWriter()-- Creating 'ecoli.ms22.WORKING' for 22-mers, with prefixSize 12 suffixSize 32 numFiles 64
+Bye.
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+For fraction-distinct 0.999900, found threshold 182
+Bye.

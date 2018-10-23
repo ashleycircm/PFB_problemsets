@@ -1,0 +1,15 @@
+Canu v1.7 (+518 commits) r9210 22a2453af2eafd0109c9924b648e91711eb3c701.
+
+Current Working Directory:
+/Users/admin/Desktop/Ash/ecoli_filtered_0.75.fastq/trimming/3-overlapbasedtrimming
+
+Command:
+/Users/admin/Desktop/Ash/canu/Darwin-amd64/bin/trimReads \
+  -S ../../ecoli.seqStore \
+  -O ../ecoli.ovlStore \
+  -Co ./ecoli.1.trimReads.clear \
+  -e 0.045 \
+  -minlength 1000 \
+  -ol 1 \
+  -oc 1 \
+  -o ./ecoli.1.trimReads

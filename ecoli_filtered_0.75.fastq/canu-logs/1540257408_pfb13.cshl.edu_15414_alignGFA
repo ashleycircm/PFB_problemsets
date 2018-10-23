@@ -1,0 +1,11 @@
+Canu v1.7 (+518 commits) r9210 22a2453af2eafd0109c9924b648e91711eb3c701.
+
+Current Working Directory:
+/Users/admin/Desktop/Ash/ecoli_filtered_0.75.fastq/unitigging/4-unitigger
+
+Command:
+/Users/admin/Desktop/Ash/canu/Darwin-amd64/bin/alignGFA \
+  -T ../ecoli.ctgStore 2 \
+  -i ./ecoli.contigs.gfa \
+  -o ./ecoli.contigs.aligned.gfa \
+  -t 4

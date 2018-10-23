@@ -1,0 +1,76 @@
+=====================================
+OVERLAP COUNTS
+
+dovetail overlaps (best)              2072
+dovetail overlaps                     7822
+dovetail overlaps to contained reads  132312
+containment overlaps                  106880
+
+=====================================
+BEST EDGE OVERLAP FATE
+
+SATISFIED best edges         DOVETAIL
+---------                ------------ -------
+same-contig                      2028  97.88%
+same-repeat                         0   0.00%
+
+UNSATISFIED best edges       DOVETAIL
+-----------              ------------ -------
+same-contig                         0   0.00%
+same-repeat                         0   0.00%
+same-unassembled                    0   0.00%
+same-unused                         0   0.00%
+
+UNSATISFIED best edges       DOVETAIL
+-----------              ------------ -------
+contig-contig                       0   0.00%
+contig-repeat                       0   0.00%
+contig-unassembled                  9   0.43%
+contig-unused                       5   0.24%
+contig-none                         0   0.00%
+
+repeat-repeat                       0   0.00%
+repeat-unassembled                  0   0.00%
+repeat-unused                       0   0.00%
+repeat-none                         0   0.00%
+
+unassembled-unassembled             0   0.00%
+unassembled-unused                 29   1.40%
+unassembled-none                    0   0.00%
+
+unused-unused                       0   0.00%
+unused-none                         0   0.00%
+
+
+=====================================
+ALL OVERLAP FATE
+
+SATISFIED all overlaps       DOVETAIL              DOVECONT           CONTAINMENT
+---------                ------------ -------  ------------ -------  ------------ -------
+same-contig                      7739  98.94%        109786  82.98%         84031  78.62%
+same-repeat                         0   0.00%             0   0.00%             0   0.00%
+
+UNSATISFIED all overlaps     DOVETAIL              DOVECONT           CONTAINMENT
+-----------              ------------ -------  ------------ -------  ------------ -------
+same-contig                        25   0.32%           934   0.71%          1127   1.05%
+same-repeat                         0   0.00%             0   0.00%             0   0.00%
+same-unassembled                    0   0.00%             0   0.00%             0   0.00%
+same-unused                         0   0.00%             0   0.00%             0   0.00%
+
+UNSATISFIED all overlaps     DOVETAIL              DOVECONT           CONTAINMENT
+-----------              ------------ -------  ------------ -------  ------------ -------
+contig-contig                       0   0.00%             0   0.00%             0   0.00%
+contig-repeat                       0   0.00%             0   0.00%             0   0.00%
+contig-unassembled                 52   0.66%         19074  14.42%         19314  18.07%
+contig-unused                       0   0.00%             0   0.00%             0   0.00%
+
+repeat-repeat                       0   0.00%             0   0.00%             0   0.00%
+repeat-unassembled                  0   0.00%             0   0.00%             0   0.00%
+repeat-unused                       0   0.00%             0   0.00%             0   0.00%
+
+unassembled-unassembled             4   0.05%          2494   1.88%          2384   2.23%
+unassembled-unused                  0   0.00%             0   0.00%             0   0.00%
+
+unused-unused                       0   0.00%             0   0.00%             0   0.00%
+
+

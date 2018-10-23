@@ -1,0 +1,10 @@
+-- Reading GFA './ecoli.unitigs.gfa'.
+gfa:  Loaded 1 sequences and 0 links.
+-- Loading sequences from tigStore '../ecoli.utgStore' version 2.
+-- Resetting sequence lengths.
+-- Aligning 0 links using 4 threads.
+-- Writing GFA './ecoli.unitigs.aligned.gfa'.
+-- Cleaning up.
+-- Aligned      0 ciruclar tigs, failed      0
+-- Aligned      0   linear tigs, failed      0
+Bye.

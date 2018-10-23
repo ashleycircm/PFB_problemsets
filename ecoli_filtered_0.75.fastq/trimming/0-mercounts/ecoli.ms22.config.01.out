@@ -1,0 +1,48 @@
+
+Counting 78  million canonical 22-mers from 1 input file:
+    canu-seqStore: ../../ecoli.seqStore
+
+
+SIMPLE MODE
+-----------
+
+  22-mers
+    -> 17592186044416 entries for counts up to 65535.
+    -> 256 Tbits memory used
+
+  82371056 input bases
+    -> expected max count of 329484, needing 4 extra bits.
+    -> 64 Tbits memory used
+
+  40 TB memory needed
+
+
+COMPLEX MODE
+------------
+
+prefix     # of   struct   kmers/    segs/     data    total
+  bits   prefix   memory   prefix   prefix   memory   memory
+------  -------  -------  -------  -------  -------  -------
+     1     2  P    53 kB    39 MM  3380  S   422 MB   422 MB
+     2     4  P    51 kB    19 MM  1651  S   412 MB   412 MB
+     3     8  P    51 kB     9 MM   806  S   402 MB   402 MB
+     4    16  P    50 kB  5027 kM   393  S   392 MB   392 MB
+     5    32  P    51 kB  2513 kM   192  S   383 MB   383 MB
+     6    64  P    53 kB  1256 kM    94  S   375 MB   375 MB
+     7   128  P    58 kB   628 kM    46  S   367 MB   367 MB
+     8   256  P    70 kB   314 kM    23  S   367 MB   367 MB
+     9   512  P    92 kB   157 kM    11  S   351 MB   351 MB
+    10  1024  P   144 kB    78 kM     6  S   383 MB   383 MB  Best Value!
+    11  2048  P   240 kB    39 kM     3  S   383 MB   384 MB
+    12  4096  P   448 kB    19 kM     2  S   511 MB   512 MB
+    13  8192  P   832 kB     9 kM     1  S   511 MB   512 MB
+    14    16 kP  1664 kB  5028  M     1  S  1023 MB  1025 MB
+    15    32 kP  3328 kB  2514  M     1  S  2047 MB  2050 MB
+
+
+FINAL CONFIGURATION
+-------------------
+
+Configured complex mode for 0.375 GB memory per batch, and up to 1 batch.
+
+Bye.

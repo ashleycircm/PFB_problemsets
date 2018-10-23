@@ -1,0 +1,15 @@
+Canu v1.7 (+518 commits) r9210 22a2453af2eafd0109c9924b648e91711eb3c701.
+
+Current Working Directory:
+/Users/admin/Desktop/Ash/ecoli_filtered_0.75.fastq/unitigging/5-consensus
+
+Command:
+/Users/admin/Desktop/Ash/canu/Darwin-amd64/bin/utgcns \
+  -S ../ecoli.utgStore/partitionedReads.seqStore \
+  -T ../ecoli.utgStore 1 0001 \
+  -O ./utgcns/0001.cns.WORKING \
+  -maxcoverage 40 \
+  -e 0.075 \
+  -pbdagcon \
+  -edlib \
+  -threads 1-4

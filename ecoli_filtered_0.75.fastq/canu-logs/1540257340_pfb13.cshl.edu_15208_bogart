@@ -1,0 +1,22 @@
+Canu v1.7 (+518 commits) r9210 22a2453af2eafd0109c9924b648e91711eb3c701.
+
+Current Working Directory:
+/Users/admin/Desktop/Ash/ecoli_filtered_0.75.fastq/unitigging/4-unitigger
+
+Command:
+/Users/admin/Desktop/Ash/canu/Darwin-amd64/bin/bogart \
+  -S ../../ecoli.seqStore \
+  -O ../ecoli.ovlStore \
+  -o ./ecoli \
+  -gs 4800000 \
+  -eg 0.045 \
+  -eM 0.045 \
+  -mo 500 \
+  -dg 6 \
+  -db 6 \
+  -dr 3 \
+  -ca 2100 \
+  -cp 200 \
+  -threads 4 \
+  -M 16 \
+  -unassembled 2 0 1.0 0.5 3

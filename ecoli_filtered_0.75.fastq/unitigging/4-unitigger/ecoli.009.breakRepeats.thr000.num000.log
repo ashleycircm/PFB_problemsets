@@ -1,0 +1,39 @@
+repeatDetect()-- working on 16 tigs, with 4 threads.
+Annotating repeats in reads for tig 1/16.
+Annotated with 377 overlaps.
+Scan reads to discard spanned repeats.
+discard region   152484:155506   - contained in read   8547   138957-  158621
+discard region   155912:157916   - contained in read   8547   138957-  158621
+discard region   556897:557982   - contained in read    773   542511-  559794
+discard region   612952:614255   - contained in read   7748   602068-  616995
+discard region   792606:793726   - contained in read   1934   777897-  794860
+discard region   850894:855629   - contained in read   6459   834705-  858601
+discard region   897901:898507   - contained in read   6083   879038-  899732
+discard region  1079750:1080711  - contained in read   1506  1063092- 1082329
+discard region  1371670:1374457  - contained in read    886  1357535- 1375652
+discard region  1465794:1468335  - contained in read   3251  1454019- 1473913
+discard region  1594340:1599797  - contained in read   2788  1573674- 1602503
+discard region  1604178:1604706  - contained in read     81  1590804- 1608441
+discard region  1635928:1641189  - contained in read   8595  1620964- 1655148
+discard region  1926537:1927704  - contained in read   2161  1912248- 1932380
+discard region  1935713:1936909  - contained in read    677  1917721- 1939540
+discard region  2085837:2086539  - contained in read   5236  2066516- 2092156
+discard region  2294541:2299470  - contained in read   5621  2280953- 2300525
+discard region  2341204:2342425  - contained in read    417  2314024- 2344186
+discard region  2344566:2345676  - contained in read   9397  2340814- 2346778
+discard region  2451980:2453251  - contained in read   3044  2434111- 2457549
+discard region  2462491:2463702  - contained in read   1526  2446480- 2472848
+discard region  2638130:2638968  - contained in read   6197  2629801- 2646917
+discard region  2645693:2646758  - contained in read   8542  2635639- 2648755
+discard region  2679091:2680407  - contained in read   8999  2667859- 2684562
+discard region  2759277:2760089  - contained in read   1334  2746221- 2763776
+discard region  3371611:3372653  - contained in read   8114  3360602- 3384979
+discard region  3468219:3469042  - contained in read   5276  3452366- 3470896
+discard region  3504616:3505676  - contained in read   2777  3485829- 3516820
+discard region  3540417:3541563  - contained in read   4504  3522518- 3547986
+discard region  3723445:3724047  - contained in read   3753  3708391- 3725818
+discard region  4142893:4144168  - contained in read   8170  4129189- 4153626
+discard region  4175675:4176734  - contained in read   4671  4156562- 4189149
+discard region  4363125:4364133  - contained in read   7331  4342345- 4366333
+thickest edges to the repeat regions:
+search for confused edges:

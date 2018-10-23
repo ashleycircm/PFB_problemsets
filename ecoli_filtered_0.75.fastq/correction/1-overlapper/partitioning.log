@@ -1,0 +1,2 @@
+Job 1 computes block 1 vs blocks 2-2 (and self),
+Job 2 computes block 2 vs itself.

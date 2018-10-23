@@ -1,0 +1,19 @@
+Canu v1.7 (+518 commits) r9210 22a2453af2eafd0109c9924b648e91711eb3c701.
+
+Current Working Directory:
+/Users/admin/Desktop/Ash/ecoli_filtered_0.75.fastq/unitigging/1-overlapper
+
+Command:
+/Users/admin/Desktop/Ash/canu/Darwin-amd64/bin/overlapInCore \
+  -t 8 \
+  -k 22 \
+  -k ../0-mercounts/ecoli.ms22.dump \
+  --hashbits 22 \
+  --hashload 0.8 \
+  --maxerate 0.045 \
+  --minlength 500 \
+  -h 1-9424 \
+  -r 1-9424 \
+  --hashdatalen 71989300 \
+  -o ./001/000001.ovb.WORKING \
+  -s ./001/000001.stats ../../ecoli.seqStore
